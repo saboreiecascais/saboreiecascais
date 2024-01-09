@@ -1,0 +1,64 @@
+body {font-family: 'Inria Serif', serif;}
+/*só mudamos uma class*/
+.icones {
+    list-style: none;
+}
+/*tamanho da tipografia - colocar o nome da class que queremos mudar ex:fabrands*/
+/*podemos mudar vários ao mesmo tempo, é colocar , entre os nomes*/
+.fa-brands, .fa-solid {
+    font-size: 30px;
+    /*margem ao topo e lados*/
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*alinhar texto ao centro*/
+.cabecalho h3 {
+    text-align: center;
+    margin-top: 20px; /*margem relativamente à imagem ou outro texto*/
+  
+}
+.cabecalho p {
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subtitulo1 h5 {
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.titulo2 {
+    text-align: center;
+    
+}
+.subtitulo2 h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.barra-rodape {
+    background-color: #38E3E3; /*colocar cor de fundo - o código da cor está no figma e depois adicionar o #*/
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.barra-topo {
+    background-color: #38E3E3;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+ 
+}
+.titulo3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
