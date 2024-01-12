@@ -55,6 +55,7 @@ body {font-family: 'Inria Serif', serif;}
     text-transform: uppercase;
     margin-top: 50px;
     margin-bottom: 30px;
+  
  
 }
 .titulo3 {
@@ -62,3 +63,9 @@ body {font-family: 'Inria Serif', serif;}
     margin-bottom: 20px;
 }
 
+.texto1 {
+    margin-top: 20px;
+}
+.texto2 {
+    margin-top: 20px;
+}
