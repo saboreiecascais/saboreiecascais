@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
   </head>
  
@@ -25,38 +25,40 @@
         </div>
 
         <div class="row">
-            <div class="col-md-12 barra-topo">
-                <nav class="navbar navbar-expand-lg ">
-                    <div class="container-fluid">
-                      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Página principal</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="listagem.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Tipo de cozinha
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="listagem.html">Italiano</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Últimos Artigos</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="sobre.html">Sobre o blog</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
+          <div class="col-md-12 barra-topo">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Página principal</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="listagem.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tipo de cozinha</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="listagem.html">Italiano</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="sobre.html#ultimosartigos">Últimos Artigos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="sobre.html">Sobre o blog</a>
+                    </li>
+                  </ul>
             </div>
-        </div>
+              </div>
+            </nav>
+          </div>
+      </div>
 
         <div class="row">
-            <div class="col-md-7">
-                <h3>Saboreie Cascais: Descubra os Restaurantes imperdíveis de Cascais</h3>
+            <div class="col-md-6 texto3">
+                <h3>Saboreie Cascais: Descubra os Restaurantes imperdíveis desta famosa vila portuguesa</h3>
                 <p>Localizada na Costa do Estoril, esta pitoresca vila de pescadores é hoje um destino cobiçado por turistas de todo o mundo, atraídos pelas famosas praias, ruas vibrantes e restaurantes requintados.</p>
 
                 <p>É um destino que combina o encanto do passado, graças aos edifícios históricos como o Palácio de Cascais e a Cidadela, com a modernidade de restaurantes de excelência e cafés aconchegantes. A atmosfera descontraída e acolhedora de Cascais atrai visitantes que procuram momentos de tranquilidade à beira-mar, juntamente com uma oferta cultural e gastronómica destinada a todos os gostos e preferências alimentares. No que diz respeito à gastronomia, Cascais apresenta uma oferta gastronómica diversificada e saborosa, que reflete a tradição culinária portuguesa. Os restaurantes à beira-mar oferecem uma experiência sensorial única, graças à frescura dos pratos de peixe e frutos do mar, sendo estes capturados localmente.</p>
@@ -67,10 +69,10 @@
 
                 <p>Cada semana sai um artigo sobre um novo restaurante! Esteja atento e assine o blog por email para estar a par das novidades (mais informações no rodapé da página).</p>
               </div>
-              <div class="col-md-5">
-                <img src="imagens/baiadopeixe.png" alt="restautante Baia do Peixe" class="img-fluid">
-                <img src="imagens/baiadopeixe.png" alt="restautante Baia do Peixe" class="img-fluid">
-                <img src="imagens/baiadopeixe.png" alt="restautante Baia do Peixe" class="img-fluid">
+              <div class="col-md-5 offset-md-1">
+                <img src="imagens/cascais1.png" alt="farol de cascais" class="img-fluid imagemcascais1">
+                <img src="imagens/cascais2.png" alt="praia de cascais" class="img-fluid imagemcascais2">
+                <img src="imagens/cascais3.png" alt="vista sobre cascais" class="img-fluid imagemcascais3">
               </div>
             </div>
             
@@ -80,53 +82,41 @@
                 </div>
             </div>
 
+            <a id="ultimosartigos"></a>
             <div class="row">
                 <div class="col-md-4 subtitulo2">
-                    <img src="imagens/baiadopeixe.png" alt="restautante Baia do Peixe" class="img-fluid">
+                    <a href="artigohifen.html"><img src="imagens/baiadopeixe.png" alt="restautante Baia do Peixe" class="img-fluid lista2"></a>
                     <h5> Baía do Peixe </h5> 
                     <p>Saboreie uma variedade do peixe e marisco mais fresco da zona de Cascais, com um serviço de excelência, enquanto desfruta de uma vista fantástica da baía.</p>   
                 </div>
                 <div class="col-md-4 subtitulo2">
-                  <img src="imagens/tagliatella.png" alt="restaurante La Tagliatella" class="img-fluid">
+                  <a href="artigotagliatella.html"><img src="imagens/tagliatella.png" alt="restaurante La Tagliatella" class="img-fluid lista2"></a>
                   <h5> La Tagliatella </h5>
                   <p>Desde as entradas, às pizzas, massas e risottos , no Tagliatella o melhor é partilhar para poder provar as diversas delícias italianas que o restaurante tem para oferecer.</p>
                 </div>
                 <div class="col-md-4 subtitulo2">
-                  <img src="imagens/sushissimo.png" alt="restaurante Sushissimo" class="img-fluid">
-                  <h5> Sushissimo </h5>
+                  <a href="artigohifen.html"><img src="imagens/sushissimo.png" alt="restaurante Sushissimo" class="img-fluid lista2"></a>
+                  <h5> Sushíssimo </h5>
                   <p>Descubra a fusão de sabores japoneses  num ambiente acolhedor e sossegado, com um atendimento prestável e amigável.</p>
                 </div>
+              </div>
 
                 <div class="row barra-rodape">
                     <div class="col-md-4 offset-md-4 titulo2">
                       <h5>Assine o blog por email</h5>
                       <p>Coloque aqui o seu email, para receber notificações sobre as novas publicações!</p>
                     </div>
+                    <div class="col-md-2 offset-md-5">
+                      <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+                      </div>
+                    </div>
+                    <div class="col-md-1 offset-md-6">
+                      <button type="button" class="btn btn-light">Enviar</button>
+                    </div>          
                   </div>
-        
+             </div>
     
-        </div>
-
-
-
-
-    </div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

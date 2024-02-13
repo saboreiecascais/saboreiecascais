@@ -1,37 +1,34 @@
-body {font-family: 'Inria Serif', serif;}
-/*só mudamos uma class*/
-.icones {
-    list-style: none;
-}
-/*tamanho da tipografia - colocar o nome da class que queremos mudar ex:fabrands*/
-/*podemos mudar vários ao mesmo tempo, é colocar , entre os nomes*/
-.fa-brands, .fa-solid {
-    font-size: 30px;
-    /*margem ao topo e lados*/
-    margin-top: 60px;
-    margin-left: 5px;
-    margin-right: 5px;
+.capa {
+    margin-top: 20px;
 }
 
-/*alinhar texto ao centro*/
 .cabecalho h3 {
     text-align: center;
-    margin-top: 20px; /*margem relativamente à imagem ou outro texto*/
+    margin-top: 20px; 
   
 }
 .cabecalho p {
     text-align: center;
+    font-size: medium;
 }
 
-.subtitulo {
+.cabecalho h3 {
+    font-weight: bold;
+    text-decoration-color: black;
+    margin-bottom: 10px;
+}
+
+.subtitulo h4 {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-weight: bold; 
 }
 
 .subtitulo1 h5 {
     text-align: center;
     margin-top: 10px;
+    font-weight: bold;
    
 }
 .titulo2 {
@@ -41,6 +38,7 @@ body {font-family: 'Inria Serif', serif;}
 .subtitulo2 h5 {
     text-align: center;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 
@@ -48,6 +46,7 @@ body {font-family: 'Inria Serif', serif;}
     background-color: #38E3E3; /*colocar cor de fundo - o código da cor está no figma e depois adicionar o #*/
     padding-top: 10px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .barra-topo {
@@ -58,14 +57,72 @@ body {font-family: 'Inria Serif', serif;}
   
  
 }
-.titulo3 {
+.titulo3 h3 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
 .texto1 {
     margin-top: 20px;
+    font-size: medium;
 }
 .texto2 {
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.imagemcascais1 {
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+.imagemcascais2 {
+    margin-bottom: 20px;
+}
+
+.imagemcascais3 {
+    margin-bottom: 20px;
+}
+
+.texto3 {
+    margin-top: 20px; 
+}
+
+.texto3 h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.form-control {
+    text-align: center;
+}
+
+.imagemtagliatella1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imagemtagliatella2 {
+    margin-bottom: 60px;
+}
+.imagemhifen {
+    margin-top: 40px;
+}
+.classificacao h4 {
+    text-align: center;
+}
+
+.fa-solid fa-star {
+    align-items: center;
+}
+.pontuacao{
+    text-align: center;
+}
+.estrelas {
+    text-align: center;
+}
+.lista {
+    margin-bottom: 10px;
+}
+.lista2 {
+    margin-bottom: 10px;
     margin-top: 20px;
 }
