@@ -1,0 +1,128 @@
+.capa {
+    margin-top: 20px;
+}
+
+.cabecalho h3 {
+    text-align: center;
+    margin-top: 20px; 
+  
+}
+.cabecalho p {
+    text-align: center;
+    font-size: medium;
+}
+
+.cabecalho h3 {
+    font-weight: bold;
+    text-decoration-color: black;
+    margin-bottom: 10px;
+}
+
+.subtitulo h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+.subtitulo1 h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+   
+}
+.titulo2 {
+    text-align: center;
+    
+}
+.subtitulo2 h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.barra-rodape {
+    background-color: #38E3E3; /*colocar cor de fundo - o código da cor está no figma e depois adicionar o #*/
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.barra-topo {
+    background-color: #38E3E3;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  
+ 
+}
+.titulo3 h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.texto1 {
+    margin-top: 20px;
+    font-size: medium;
+}
+.texto2 {
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.imagemcascais1 {
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+.imagemcascais2 {
+    margin-bottom: 20px;
+}
+
+.imagemcascais3 {
+    margin-bottom: 20px;
+}
+
+.texto3 {
+    margin-top: 20px; 
+}
+
+.texto3 h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.form-control {
+    text-align: center;
+}
+
+.imagemtagliatella1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imagemtagliatella2 {
+    margin-bottom: 60px;
+}
+.imagemhifen {
+    margin-top: 40px;
+}
+.classificacao h4 {
+    text-align: center;
+}
+
+.fa-solid fa-star {
+    align-items: center;
+}
+.pontuacao{
+    text-align: center;
+}
+.estrelas {
+    text-align: center;
+}
+.lista {
+    margin-bottom: 10px;
+}
+.lista2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
